@@ -21,7 +21,7 @@ def load_quotes():
 
 
 def get_font(size):
-    font_path = os.path.join(os.path.dirname(__file__), '..', 'Merriweather_24pt-Regular.ttf')
+    font_path = os.path.join(os.path.dirname(__file__), '..', 'fonts', 'Merriweather_24pt-Regular.ttf')
     try:
         return ImageFont.truetype(font_path, size)
     except Exception:
